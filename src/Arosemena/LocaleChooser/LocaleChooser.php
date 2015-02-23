@@ -45,7 +45,7 @@ class LocaleChooser
   private function process($header = "")
   {
     // check if the user sent a cookie containing a language and if the language if available
-    if (!$this->cookie() && in_array($this->cookie(), $this->available)) {
+    if ($this->cookie()) {
       return $this->cookie();
     }
     $regex     = '/([a-zA-Z]{2});/';
