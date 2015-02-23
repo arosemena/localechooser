@@ -4,7 +4,7 @@ This is a simple class to detect the locale that the user preffers.
 ## Installation
 The easiest way to install this is through composer, inside your composer.json require block add
 
-    "arosemena/localechooser": "1.0.0"
+    "arosemena/localechooser": "1.0.1"
 
 and then do `composer update`, otherwise you could grab the class itself and autoload it with the method of your choosing.
 
