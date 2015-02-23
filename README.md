@@ -10,7 +10,7 @@ and then do `composer update`, otherwise you could grab the class itself and aut
 
 ## Usage
 
-First you need an instance of the LocaleChooser class, the constructor takes 3 parameters, first an array of the available language, `['en', 'es', 'fr']` for example, the second parameter is a string of the default language in case nothing can be matched, the third parameter is the name of the cookie that contains the language that overrides all the normal priority.
+You will need an instance of the LocaleChooser class, the constructor takes 3 parameters, first an array of the available language, `['en', 'es', 'fr']` for example, the second parameter is a string of the default language in case nothing can be matched, the third parameter is the name of the cookie that contains the language that overrides all the normal priority.
 
 ```php
     $chooser = new Arosemena\LanguageChooser\LanguageChooser(['en', 'es'], 'en', 'language');
