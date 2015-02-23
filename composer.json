@@ -1,0 +1,22 @@
+{
+  "name": "arosemena/localechooser",
+  "type": "library",
+  "description": "Locale chooser based on common browser headers",
+  "keywords": ["language", "LocalChooser"],
+  "homepage": "https://github.com/arosemena/localechooser",
+  "license": "MIT",
+  "authors": [{
+    "name": "Roberto Arosemena Elizondo",
+    "email": "contact@roae.me",
+    "homepage": "https://roae.me",
+    "role": "developer"
+  }],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Arosemena\\LocaleChooser": "src"
+    }
+  }
+}
